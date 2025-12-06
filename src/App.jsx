@@ -1,9 +1,9 @@
 import { Routes, Route, Navigate } from 'react-router-dom'
-import LoginPage from './pages/LoginPage'
-import RegisterPage from './pages/RegisterPage'
-import VerifyOtpPage from './pages/VerifyOtpPage'
-import DashboardPage from './pages/DashboardPage'
-import ProtectedRoute from './components/ProtectedRoute'
+import LoginPage from './pages/LoginPage.jsx'
+import RegisterPage from './pages/RegisterPage.jsx'
+import VerifyOtpPage from './pages/VerifyOtpPage.jsx'
+import DashboardPage from './pages/DashboardPage.jsx'
+import ProtectedRoute from './components/ProtectedRoute.jsx'
 
 function App() {
   return (
