@@ -17,3 +17,12 @@
 - 기본적인 폼 검증 및 에러 처리
 
 ## Project Structure
+```
+src/
+┣ pages # 페이지 단위 컴포넌트 (Login, Register 등)
+┣ components # 공통 UI 컴포넌트
+┣ api # Axios API 모듈
+┣ utils # 공통 유틸 함수
+┣ App.jsx
+┗ index.js
+```
