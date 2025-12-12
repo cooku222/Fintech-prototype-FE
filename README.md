@@ -26,3 +26,25 @@ src/
 ┣ App.jsx
 ┗ index.js
 ```
+
+## Getting Started
+
+### 1) Requirements
+- Node.js 18+
+- npm or yarn
+
+### 2) Install
+```bash
+npm install
+# or
+yarn install
+```
+
+### 3) Run (Local)
+```
+npm start
+# or
+yarn start
+```
+기본적으로 http://localhost:3000 에서 실행됩니다.
+
