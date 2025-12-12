@@ -26,7 +26,7 @@ function LoginPage() {
 
   return (
     <div style={{ maxWidth: 400, margin: '40px auto' }}>
-      <h2>핀테크 로그인</h2>
+      <h2>수빈은행 로그인</h2>
       <form onSubmit={handleSubmit}>
         <div>
           <label>이메일</label>
