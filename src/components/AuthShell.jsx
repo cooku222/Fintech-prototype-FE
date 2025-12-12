@@ -13,8 +13,6 @@ export default function AuthShell({ title, subtitle, children, rightHint = 'Secu
           <h1 className="heroTitle">SubinBank</h1>
           <p className="heroDesc">
             심플한 인증 흐름(회원가입 → 로그인 → OTP) 기반의 데모 핀테크 앱 UI.
-            <br />
-            실제 앱처럼 “깨끗하고 빠르게” 보이도록 구성했어.
           </p>
 
           <div className="heroStats">
