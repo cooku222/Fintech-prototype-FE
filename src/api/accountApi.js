@@ -12,4 +12,4 @@ api.interceptors.request.use((config) => {
 })
 
 export const getAccountById = (id) => api.get(`/api/accounts/${id}`)
-export const getMyAccount = () => api.get('/api/accounts/${id}/my')
+export const getMyAccount = (id) => api.get(`/api/accounts/${id}/my`)
