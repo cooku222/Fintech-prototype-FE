@@ -123,39 +123,6 @@ function DashboardPage() {
           {/* 계좌 조회 */}
           <div className="card">
             <h3 className="cardTitle">계좌 조회</h3>
-            <p className="cardSub">/api/accounts/{'{id}'} 호출 결과를 확인합니다.</p>
-
-            <div className="field" style={{ marginTop: 10 }}>
-              <div className="labelRow">
-                <label className="label">Account ID</label>
-                <span className="label">숫자</span>
-              </div>
-
-              <input
-                className="input"
-                value={accountId}
-                onChange={(e) => setAccountId(e.target.value.replace(/\D/g, ''))}
-                placeholder="예: 1"
-                inputMode="numeric"
-              />
-            </div>
-
-            <div className="btnRow" style={{ marginTop: 12 }}>
-              <button className="btn btnPrimary" type="button" onClick={fetchAccount}>
-                조회
-              </button>
-              <button
-                className="btn"
-                type="button"
-                onClick={() => {
-                  setAccount(null)
-                  setAccountError('')
-                }}
-              >
-                초기화
-              </button>
-            </div>
-
             {accountError && (
               <div className="alert alertDanger" style={{ marginTop: 12 }}>
                 {accountError}
