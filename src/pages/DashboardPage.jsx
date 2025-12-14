@@ -21,6 +21,7 @@ function DashboardPage() {
       try {
         const res = await getMe()
         setUser(res.data)
+        await fetchAccount()
       } catch (err) {
         setError('사용자 정보를 불러오는데 실패했습니다.')
       } finally {
